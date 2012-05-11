@@ -38,6 +38,7 @@
 		21EF9A3D1559A8AF0039E53E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF9A3C1559A8AF0039E53E /* MainViewController.m */; };
 		21EF9A3F1559A8AF0039E53E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21EF9A3E1559A8AF0039E53E /* MainViewController.xib */; };
 		21EF9A431559A8AF0039E53E /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 21EF9A421559A8AF0039E53E /* verify.sh */; };
+		21EF9A4A1559A95C0039E53E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 21EF9A491559A95C0039E53E /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		21EF9A051559A8AF0039E53E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		21EF9A071559A8AF0039E53E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		21EF9A091559A8AF0039E53E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		21EF9A0D1559A8AF0039E53E /* digitopia-Info.plist */ = {isa = PBXFileReference; path = "digitopia-Info.plist"; sourceTree = "<group>"; };
+		21EF9A0D1559A8AF0039E53E /* digitopia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "digitopia-Info.plist"; sourceTree = "<group>"; };
 		21EF9A0F1559A8AF0039E53E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21EF9A111559A8AF0039E53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21EF9A131559A8AF0039E53E /* digitopia-Prefix.pch */ = {isa = PBXFileReference; path = "digitopia-Prefix.pch"; sourceTree = "<group>"; };
+		21EF9A131559A8AF0039E53E /* digitopia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "digitopia-Prefix.pch"; sourceTree = "<group>"; };
 		21EF9A141559A8AF0039E53E /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		21EF9A191559A8AF0039E53E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		21EF9A1D1559A8AF0039E53E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		21EF9A311559A8AF0039E53E /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		21EF9A331559A8AF0039E53E /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		21EF9A351559A8AF0039E53E /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		21EF9A381559A8AF0039E53E /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		21EF9A381559A8AF0039E53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		21EF9A391559A8AF0039E53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		21EF9A3B1559A8AF0039E53E /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		21EF9A3B1559A8AF0039E53E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		21EF9A3C1559A8AF0039E53E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		21EF9A3E1559A8AF0039E53E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		21EF9A411559A8AF0039E53E /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		21EF9A411559A8AF0039E53E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		21EF9A421559A8AF0039E53E /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		21EF9A491559A95C0039E53E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		21EF99DF1559A8AF0039E53E = {
 			isa = PBXGroup;
 			children = (
+				21EF9A491559A95C0039E53E /* www */,
 				21EF9A0B1559A8AF0039E53E /* digitopia */,
 				21EF99F01559A8AF0039E53E /* Frameworks */,
 				21EF99EE1559A8AF0039E53E /* Products */,
@@ -330,6 +333,7 @@
 				21EF9A361559A8AF0039E53E /* Cordova.plist in Resources */,
 				21EF9A3F1559A8AF0039E53E /* MainViewController.xib in Resources */,
 				21EF9A431559A8AF0039E53E /* verify.sh in Resources */,
+				21EF9A4A1559A95C0039E53E /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +481,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "digitopia/digitopia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -507,6 +512,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "digitopia/digitopia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,

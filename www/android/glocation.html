@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Crystal McDonald
+AVF 1205
+Week 2: Notifications/Alerts
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Crystal's Landing &mdash; AVF 1205 &amp; Demo App</title>
+<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Mobile IE needs ClearType for smoothing fonts -->
+<meta http-equiv="cleartype" content="on">
+<!-- StyleSheets under here -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css"/>
+<link rel="stylesheet" href="css/ps/jquery-mobile.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & attend detects -->
+<script src="js/libs/modernizr.custom.min.js"></script>
+</head>
+<body>
+
+	<header>
+	<nav>
+    <div id="escapehatch" class="demo"> <a href="index.html" id="demoName">Digitopia</a>
+    </div>
+  </nav>
+ </header>
+  
+   
+   
+         
+  <section  class="wrap demo">
+  
+  <!-- Geo-Location -->
+  <section  
+   <header class="label-name">
+      <h1>Location Location Location</h1>
+    </header>
+    <div class="label">
+
+    	<!-- <a href="geomap" --><div <button class="button">Find &amp; Share My Location</div><!-- </a> -->
+    	
+    	<script>
+    	if(navigator.geolocation){
+    		navigator.geolocation.getCurrentPosition(userPosition);
+    	}else{
+    	function userPosition(position){
+  			alert('your latitude is : ' + position.coords.latitude + ' and longitude is : ' + position.coords.longitude);)
+    	}
+    	</script>
+    </div>
+
+  </section>
+		
+		
+		
+<footer id="footer">
+  <p class="copyright">&copy;</p>
+  <p>Digitopia 2012 </p>
+  <p>Crystal McDonald AVF 1205 DemoApp</p>
+</footer>
+<!-- End of Footer -->
+
+			<!--JavaScript-->
+			<script type="text/javascript" src="js/glocation.js"></script> 
+	</body>
+</html>
